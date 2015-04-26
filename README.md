@@ -12,24 +12,12 @@ The HelloWorld.java file contains the source code.  You can edit it with any tex
 
 ### Compiling Code
 
-The command to compile the HelloWorld.java source code is
+To compile the code, you should install and use the [apache ant](http://www.tutorialspoint.com/ant/ant_environment.htm) build tool.  And you also need the java development kit.  
 ```
-$ javac -g HelloWorld.java
-```
-
-But you need to install the javac binary on your system, which is found in the java development kit.  To install on linux, use the command:
-
-```
-$  sudo apt-get install openjdk-7-jdk
+$  sudo apt-get install ant openjdk-7-jdk
 ```
 
-
-### Deploying
-
-Ultimately you can store your .class files in an executable .jar file but its really a lot of work and may not be possible on the command line because a manifest file needs to point to the program's entry point...
-```
-jar -cf HelloWorld.jar HellowWorld
-```
+For ant to be able to build your project, you need to tweak the build.xml file so everything is pointing to the right thing.  
 
 ### Decompiling Analysing Code
 
