@@ -1,14 +1,14 @@
 ## Hello World Java
 
-This is a demo hello world witch development environment setup instructions!  
+This is a demo hello world with development environment setup instructions!  
 
-To run the code, first it needs to be compiled with the java development kit, then it needs to be run with the java runtime environment.  
+To run the code, first it needs to be compiled with the java development kit, and finally the end user needs to execute the code with the java runtime environment.  
 
 ## Development
 
 ### Writing Code
 
-The HelloWorld.java file contains the source code.  You can edit it with any text editor with nice highlighting.  Eclipse is popular in the java development world.  Java is a type heavy language, so vim isn't as handy with java as it is in other areas without installing plugins to automate some of the verbosity needed.  
+The HelloWorld.java file contains the source code.  You can edit it with any text editor with nice highlighting.  Eclipse is popular in the java development world, but so is jet brain and netbean.  Java is a type heavy language, so vim isn't as handy with java as it is in other areas without installing plugins to automate some of the verbosity needed. As such, this repo is text editor agnostic.  
 
 ### Compiling Code
 
