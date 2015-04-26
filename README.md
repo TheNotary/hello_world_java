@@ -9,6 +9,7 @@ To run the code, first it needs to be compiled with the java development kit, th
 ### Writing Code
 
 The HelloWorld.java file contains the source code.  You can edit it with any text editor with nice highlighting.  Eclipse is popular in the java development world.  Java is a type heavy language, so vim isn't as handy with java as it is in other areas without installing plugins to automate some of the verbosity needed.  
+
 ### Compiling Code
 
 The command to compile the HelloWorld.java source code is
@@ -22,6 +23,13 @@ But you need to install the javac binary on your system, which is found in the j
 $  sudo apt-get install openjdk-7-jdk
 ```
 
+
+### Deploying
+
+Ultimately you can store your .class files in an executable .jar file but its really a lot of work and may not be possible on the command line because a manifest file needs to point to the program's entry point...
+```
+jar -cf HelloWorld.jar HellowWorld
+```
 
 ### Decompiling Analysing Code
 
