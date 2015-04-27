@@ -12,9 +12,15 @@ The src/hello/HelloWorld.java file contains the source code.  You can edit it wi
 
 ### Compiling Code
 
-To compile the code, you should install and use the [apache ant](http://www.tutorialspoint.com/ant/ant_environment.htm) build tool.  And you also need the java development kit.  
+To compile the code, you should install and use the [apache ant](http://www.tutorialspoint.com/ant/ant_environment.htm) build tool.  And you also need the [java development kit](http://ubuntuhandbook.org/index.php/2015/01/install-openjdk-8-ubuntu-14-04-12-04-lts/) version 8 at least (for javaFX which is the new java I guess).  
+For Ubuntu/ Linux Mint, that's easily done as...
 ```
-$  sudo apt-get install ant openjdk-7-jdk
+$  sudo add-apt-repository ppa:openjdk-r/ppa
+$  sudo apt-get update
+$  sudo apt-get install ant openjdk-8-jdk
+
+$  sudo update-alternatives --config java
+$  sudo update-alternatives --config javac
 ```
 
 For ant to be able to build your project, you need to tweak the build.xml file so everything is pointing to the right thing.  
