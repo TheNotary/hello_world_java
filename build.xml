@@ -15,7 +15,7 @@
   <target name="build" description="Compile source tree java files">
     <mkdir dir="${build.dir}"/>
     <mkdir dir="${web.dir}/WEB-INF/lib"/>
-    <javac includeantruntime="false" destdir="${build.dir}" source="1.5" target="1.5">
+    <javac includeantruntime="false" destdir="${build.dir}" source="1.8" target="1.8">
       <src path="${src.dir}"/>
       <classpath refid="master-classpath"/>
     </javac>
